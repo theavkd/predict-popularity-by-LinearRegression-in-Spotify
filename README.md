@@ -1,5 +1,27 @@
 # predict-popularity-by-LinearRegression-in-Spotify
 
+# Dự đoán Popularity nhạc Spotify bằng Linear Regression
+
+## 1. Giới thiệu
+Dự án nghiên cứu về mối quan hệ giữa các chỉ số âm thanh và độ nổi tiếng của bài hát
+
+## 2. Các biến sử dụng
+- `acousticness`, `danceability`, `energy`: Các chỉ số đặc trưng âm thanh.
+- `duration_ms`: Thời lượng bài hát (đã được Scaling).
+
+## 3. Kết quả mô hình
+Mô hình Linear Regression tự viết (Gradient Descent) cho kết quả:
+- **Số vòng lặp:** 1000
+- **Learning Rate (step):** 0.01
+- **MSE tối ưu (optimatD):** 124.26
+- **RMSE (Sai số trung bình):** ~11.14 điểm Popularity.
+
+## 4. Cài đặt
+1. Clone repo này về.
+2. Cài đặt môi trường: `pip install numpy pandas scikit-learn`
+3. Chạy file `editor/ex.ipynb` để xem chi tiết.
+
+
 Error:  0 3353.8206896551724
 Error:  1 3289.5883292973376
 Error:  2 3226.6336485714774
